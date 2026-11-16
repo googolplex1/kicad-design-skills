@@ -1,0 +1,4 @@
+interface:
+  display_name: "KiCad Schematic Creation"
+  short_description: "Create schematics that make circuit intent clear"
+  default_prompt: "Use $kicad-schematic to create a KiCad schematic with functional sheets, readable signal paths, and verified custom symbols."

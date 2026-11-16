@@ -1,0 +1,381 @@
+{
+  "title": "KiCad Library Conventions: selected symbol rules",
+  "attribution": "KiCad Library Conventions contributors",
+  "upstream": "https://gitlab.com/kicad/libraries/klc",
+  "website": "https://klc.kicad.org/",
+  "commit": "6e8cbad9556359879d2b91f904d6df82517d97d1",
+  "import_date": "2026-11-16",
+  "selected_license": "CC-BY-3.0",
+  "license_scope": "Imported rule text and illustrations; independent skill files are outside this grant.",
+  "changes": "Selected complete rules; converted AsciiDoc formatting and image shortcodes to Markdown; rewrote selected-rule links locally; added headings and provenance. Illustrations and license files are byte-identical.",
+  "rules": [
+    {
+      "id": "S3.1",
+      "title": "S3.1 Origin is centered on the middle of the symbol",
+      "source": "content/symbol/S3/S3.1.adoc",
+      "source_sha256": "2fc4dec2675e854b626c9c2dc102ff1c8d1c41e208c93445c940b0e847cee3b8",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/content/symbol/S3/S3.1.adoc",
+      "local": "graphics.md#s31"
+    },
+    {
+      "id": "S3.2",
+      "title": "S3.2 Text fields should use a common text size of 50mils",
+      "source": "content/symbol/S3/S3.2.adoc",
+      "source_sha256": "014a8c3c537fb6a5912efcf0311bb2759e0536f7ad106ade0fbbea3c58156b7b",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/content/symbol/S3/S3.2.adoc",
+      "local": "graphics.md#s32"
+    },
+    {
+      "id": "S3.3",
+      "title": "S3.3 Symbol outline and fill requirements",
+      "source": "content/symbol/S3/S3.3.adoc",
+      "source_sha256": "04fa1ceaea0819806584bba5f32fc50bd10db3dffc375ec306b7b4310da24de5",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/content/symbol/S3/S3.3.adoc",
+      "local": "graphics.md#s33"
+    },
+    {
+      "id": "S3.4",
+      "title": "S3.4 Symbols with complex functionality may incorporate simple functional diagrams",
+      "source": "content/symbol/S3/S3.4.adoc",
+      "source_sha256": "5c7bd05f480fe506f58a559ac0b7c27e3990c128a956f13d037f71db19b6cd05",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/content/symbol/S3/S3.4.adoc",
+      "local": "graphics.md#s34"
+    },
+    {
+      "id": "S3.5",
+      "title": "S3.5 Pin connection points must be placed outside of the symbol",
+      "source": "content/symbol/S3/S3.5.adoc",
+      "source_sha256": "624c18ab03e9892ae0ae08105cfcb162643518d8c360a04e2e1324a2fc81bdfe",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/content/symbol/S3/S3.5.adoc",
+      "local": "graphics.md#s35"
+    },
+    {
+      "id": "S3.6",
+      "title": "S3.6 Pin name position offset",
+      "source": "content/symbol/S3/S3.6.adoc",
+      "source_sha256": "4c4afc36027ef0120fce86040e6ef6bbd08197a92b2e99152c4fb0f3d1b8ff44",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/content/symbol/S3/S3.6.adoc",
+      "local": "graphics.md#s36"
+    },
+    {
+      "id": "S3.8",
+      "title": "S3.8 Multi unit symbols",
+      "source": "content/symbol/S3/S3.8.adoc",
+      "source_sha256": "90ebfdd703b3d52df173c7497b5422dc3c7df410e2228d41bd73fd3f4ede5678",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/content/symbol/S3/S3.8.adoc",
+      "local": "graphics.md#s38"
+    },
+    {
+      "id": "S4.1",
+      "title": "S4.1 General pin requirements",
+      "source": "content/symbol/S4/S4.1.adoc",
+      "source_sha256": "bf210a10c6fd0321e6ab0f03a819a5b7e76a8ca6b3a55f2ac3f787f6e835c5f2",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/content/symbol/S4/S4.1.adoc",
+      "local": "pins.md#s41"
+    },
+    {
+      "id": "S4.2",
+      "title": "S4.2 Pins should be grouped by function",
+      "source": "content/symbol/S4/S4.2.adoc",
+      "source_sha256": "a6bab618093ad395b97bf501719183a1346ed6827dc04f56b0f623070ee7b26f",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/content/symbol/S4/S4.2.adoc",
+      "local": "pins.md#s42"
+    },
+    {
+      "id": "S4.3",
+      "title": "S4.3 Rules for pin stacking",
+      "source": "content/symbol/S4/S4.3.adoc",
+      "source_sha256": "367693410ae58c1fcbbfedede99b18289b98d508b304cd5720820cf0ce95dc33",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/content/symbol/S4/S4.3.adoc",
+      "local": "pins.md#s43"
+    },
+    {
+      "id": "S4.4",
+      "title": "S4.4 Pin electrical type",
+      "source": "content/symbol/S4/S4.4.adoc",
+      "source_sha256": "348f26bde15defb0954a734a2199b57a5b0f9f065c42c4f44b83afc36c23b1ee",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/content/symbol/S4/S4.4.adoc",
+      "local": "pins.md#s44"
+    },
+    {
+      "id": "S4.5",
+      "title": "S4.5 Pins not connected on the footprint may be omitted from the symbol",
+      "source": "content/symbol/S4/S4.5.adoc",
+      "source_sha256": "3382e1d1ed4b6d75647a623ec35204aa3e90fdcf85f9d48f4887e39c25b0c910",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/content/symbol/S4/S4.5.adoc",
+      "local": "pins.md#s45"
+    },
+    {
+      "id": "S4.6",
+      "title": "S4.6 Hidden pins",
+      "source": "content/symbol/S4/S4.6.adoc",
+      "source_sha256": "41c68c61beb62afb48cea5a1cc8ed39ed8995560658cca36afa67ccf7849d92c",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/content/symbol/S4/S4.6.adoc",
+      "local": "pins.md#s46"
+    },
+    {
+      "id": "S4.7",
+      "title": "S4.7 Active low pins should be designated using a bar above the symbol name",
+      "source": "content/symbol/S4/S4.7.adoc",
+      "source_sha256": "50ea3d5b19feadfe5e6fe032cf07bd6b987e50646a8cfe0f73f24092443d4317",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/content/symbol/S4/S4.7.adoc",
+      "local": "pins.md#s47"
+    },
+    {
+      "id": "G2.1",
+      "title": "G2.1 Definition of terms: Generic and fully specified symbols",
+      "source": "content/general/G2/G2.1.adoc",
+      "source_sha256": "a85c3da6c34f543b6291a08e4928c391fe78cfa6905e2b4e5c1f6593cd92f7dc",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/content/general/G2/G2.1.adoc",
+      "local": "library-fields.md#g21"
+    },
+    {
+      "id": "S5.1",
+      "title": "S5.1 Symbols with a default footprint link to a valid footprint file",
+      "source": "content/symbol/S5/S5.1.adoc",
+      "source_sha256": "543632a8a31925b5e11689477fe37739488233e3beebade8c172c5c687e80f6d",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/content/symbol/S5/S5.1.adoc",
+      "local": "library-fields.md#s51"
+    },
+    {
+      "id": "S5.2",
+      "title": "S5.2 Footprint filters must match all appropriate footprints. They should be designed to result in no false suggestions.",
+      "source": "content/symbol/S5/S5.2.adoc",
+      "source_sha256": "7ba07e70f58aafc3d09674bbf15c7193b08025852d0fa4a9f7a0e61ddbbedfd8",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/content/symbol/S5/S5.2.adoc",
+      "local": "library-fields.md#s52"
+    },
+    {
+      "id": "S6.2",
+      "title": "S6.2 Symbol fields and metadata filled out as required",
+      "source": "content/symbol/S6/S6.2.adoc",
+      "source_sha256": "c2789edd28edb8e1b492fb79f7912f86a39761144b8f3d755e7344cc7ad9a6d2",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/content/symbol/S6/S6.2.adoc",
+      "local": "library-fields.md#s62"
+    },
+    {
+      "id": "S7.1",
+      "title": "S7.1 Power symbols",
+      "source": "content/symbol/S7/S7.1.adoc",
+      "source_sha256": "b32d69865d8dc6d2f22db3d577cf818f78c2a7056ea199b5427df422d61bc7dd",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/content/symbol/S7/S7.1.adoc",
+      "local": "library-fields.md#s71"
+    }
+  ],
+  "assets": [
+    {
+      "path": "images/G2.1a.png",
+      "source": "static/img/klc/G2.1a.png",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/static/img/klc/G2.1a.png",
+      "sha256": "0c0752d413dda4b7ed8e732ca990b577ce92176946ac38ab9b9da3568e342ada",
+      "license": "CC-BY-3.0",
+      "modified": false,
+      "license_basis": "Repository dual-license grant and website footer; no separate license notice found in the selected source rule, PNG metadata, or visible illustration."
+    },
+    {
+      "path": "images/G2.1b.png",
+      "source": "static/img/klc/G2.1b.png",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/static/img/klc/G2.1b.png",
+      "sha256": "2dc607d26702de0b2dfdf018e0ac468021e46bfd1659f90c0f252e65d577fb50",
+      "license": "CC-BY-3.0",
+      "modified": false,
+      "license_basis": "Repository dual-license grant and website footer; no separate license notice found in the selected source rule, PNG metadata, or visible illustration."
+    },
+    {
+      "path": "images/G2.1c.png",
+      "source": "static/img/klc/G2.1c.png",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/static/img/klc/G2.1c.png",
+      "sha256": "3b865b9ee3508489ccc85f1e60c5660dc706b8bb6acf5d540e90c82376c56b7f",
+      "license": "CC-BY-3.0",
+      "modified": false,
+      "license_basis": "Repository dual-license grant and website footer; no separate license notice found in the selected source rule, PNG metadata, or visible illustration."
+    },
+    {
+      "path": "images/S3.1a.png",
+      "source": "static/img/klc/S3.1a.png",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/static/img/klc/S3.1a.png",
+      "sha256": "fbb940503dd479d849f782d04eb2817b7e4f73fc961e5a1e448c58c2acade2a4",
+      "license": "CC-BY-3.0",
+      "modified": false,
+      "license_basis": "Repository dual-license grant and website footer; no separate license notice found in the selected source rule, PNG metadata, or visible illustration."
+    },
+    {
+      "path": "images/S3.3a.png",
+      "source": "static/img/klc/S3.3a.png",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/static/img/klc/S3.3a.png",
+      "sha256": "65f79b13c6880df6898452a055abe36b0797f6f21d12dc0f4b8739aefd4895f4",
+      "license": "CC-BY-3.0",
+      "modified": false,
+      "license_basis": "Repository dual-license grant and website footer; no separate license notice found in the selected source rule, PNG metadata, or visible illustration."
+    },
+    {
+      "path": "images/S3.3b.png",
+      "source": "static/img/klc/S3.3b.png",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/static/img/klc/S3.3b.png",
+      "sha256": "c1cc66582c15da63f86649769072f101125e6971169b404a83ea51944d99671b",
+      "license": "CC-BY-3.0",
+      "modified": false,
+      "license_basis": "Repository dual-license grant and website footer; no separate license notice found in the selected source rule, PNG metadata, or visible illustration."
+    },
+    {
+      "path": "images/S3.4a.png",
+      "source": "static/img/klc/S3.4a.png",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/static/img/klc/S3.4a.png",
+      "sha256": "08f6b19206e6a40ee4201c46e393ec40e0b47c1e2a8f9bca71d194778d12d30a",
+      "license": "CC-BY-3.0",
+      "modified": false,
+      "license_basis": "Repository dual-license grant and website footer; no separate license notice found in the selected source rule, PNG metadata, or visible illustration."
+    },
+    {
+      "path": "images/S3.5a.png",
+      "source": "static/img/klc/S3.5a.png",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/static/img/klc/S3.5a.png",
+      "sha256": "446ae5ae65187a5118c26515b2dfcbc95bf59d0e2d8b01e4546c145a17832c5e",
+      "license": "CC-BY-3.0",
+      "modified": false,
+      "license_basis": "Repository dual-license grant and website footer; no separate license notice found in the selected source rule, PNG metadata, or visible illustration."
+    },
+    {
+      "path": "images/S3.5b.png",
+      "source": "static/img/klc/S3.5b.png",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/static/img/klc/S3.5b.png",
+      "sha256": "8224dde2d9317a3c1fca0f14f71054361a555b11de10b4b2fa65a42663485fb5",
+      "license": "CC-BY-3.0",
+      "modified": false,
+      "license_basis": "Repository dual-license grant and website footer; no separate license notice found in the selected source rule, PNG metadata, or visible illustration."
+    },
+    {
+      "path": "images/S3.6a.png",
+      "source": "static/img/klc/S3.6a.png",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/static/img/klc/S3.6a.png",
+      "sha256": "9222c6feea3bc3217cce3af8c9e23ca730b9eee6d32b110fdb55afb89fb4e2c9",
+      "license": "CC-BY-3.0",
+      "modified": false,
+      "license_basis": "Repository dual-license grant and website footer; no separate license notice found in the selected source rule, PNG metadata, or visible illustration."
+    },
+    {
+      "path": "images/S3.6b.png",
+      "source": "static/img/klc/S3.6b.png",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/static/img/klc/S3.6b.png",
+      "sha256": "68bc8451bcd406b27f1bcd520436ec64bac54c720487556525367d77777ccad2",
+      "license": "CC-BY-3.0",
+      "modified": false,
+      "license_basis": "Repository dual-license grant and website footer; no separate license notice found in the selected source rule, PNG metadata, or visible illustration."
+    },
+    {
+      "path": "images/S3.8a.png",
+      "source": "static/img/klc/S3.8a.png",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/static/img/klc/S3.8a.png",
+      "sha256": "f68eefb6adccf3ffbb1cb1861f6065b378bd892d00846b0790d2f3232e3abe3f",
+      "license": "CC-BY-3.0",
+      "modified": false,
+      "license_basis": "Repository dual-license grant and website footer; no separate license notice found in the selected source rule, PNG metadata, or visible illustration."
+    },
+    {
+      "path": "images/S4.2a.png",
+      "source": "static/img/klc/S4.2a.png",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/static/img/klc/S4.2a.png",
+      "sha256": "f2bca683899eed47b88d861c94134a46f3961c8e98e46ca827d15e9eece45210",
+      "license": "CC-BY-3.0",
+      "modified": false,
+      "license_basis": "Repository dual-license grant and website footer; no separate license notice found in the selected source rule, PNG metadata, or visible illustration."
+    },
+    {
+      "path": "images/S4.2b.png",
+      "source": "static/img/klc/S4.2b.png",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/static/img/klc/S4.2b.png",
+      "sha256": "9026ee078243dc8151469036a56caf6ada7e910b6765c08a1a4940a21635430d",
+      "license": "CC-BY-3.0",
+      "modified": false,
+      "license_basis": "Repository dual-license grant and website footer; no separate license notice found in the selected source rule, PNG metadata, or visible illustration."
+    },
+    {
+      "path": "images/S4.4a.png",
+      "source": "static/img/klc/S4.4a.png",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/static/img/klc/S4.4a.png",
+      "sha256": "8272d24531835b633467c7e6d9bb1a8940df7473da7220f81b2f1855e8fcbf72",
+      "license": "CC-BY-3.0",
+      "modified": false,
+      "license_basis": "Repository dual-license grant and website footer; no separate license notice found in the selected source rule, PNG metadata, or visible illustration."
+    },
+    {
+      "path": "images/S4.6.png",
+      "source": "static/img/klc/S4.6.png",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/static/img/klc/S4.6.png",
+      "sha256": "6c2fff21b8c7f6d2d1f7b22b868ad99e2c2a872fd30cbcf500ddff33840fd83e",
+      "license": "CC-BY-3.0",
+      "modified": false,
+      "license_basis": "Repository dual-license grant and website footer; no separate license notice found in the selected source rule, PNG metadata, or visible illustration."
+    },
+    {
+      "path": "images/S5.1a.png",
+      "source": "static/img/klc/S5.1a.png",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/static/img/klc/S5.1a.png",
+      "sha256": "8e023b2727f2b639e9cd06c49e0efa20b87ce87907d73c56203ebbe17235da22",
+      "license": "CC-BY-3.0",
+      "modified": false,
+      "license_basis": "Repository dual-license grant and website footer; no separate license notice found in the selected source rule, PNG metadata, or visible illustration."
+    },
+    {
+      "path": "images/S5.2a.png",
+      "source": "static/img/klc/S5.2a.png",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/static/img/klc/S5.2a.png",
+      "sha256": "42d585b31ba83c55cc26604b3fe3406ace6b48fb1c983bd86f86c2aa949ed95c",
+      "license": "CC-BY-3.0",
+      "modified": false,
+      "license_basis": "Repository dual-license grant and website footer; no separate license notice found in the selected source rule, PNG metadata, or visible illustration."
+    },
+    {
+      "path": "images/S7.1_a.png",
+      "source": "static/img/klc/S7.1_a.png",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/static/img/klc/S7.1_a.png",
+      "sha256": "b685290dc4e57307dcf359f684542468c71a2de5e3af2a1c5662fe8bdf1fcd52",
+      "license": "CC-BY-3.0",
+      "modified": false,
+      "license_basis": "Repository dual-license grant and website footer; no separate license notice found in the selected source rule, PNG metadata, or visible illustration."
+    },
+    {
+      "path": "images/symbol_metadata.png",
+      "source": "static/img/klc/symbol_metadata.png",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/static/img/klc/symbol_metadata.png",
+      "sha256": "5922d373fb860cd2b7fbe95b3d29a14cb23d51009321d282652e0066be9ac62f",
+      "license": "CC-BY-3.0",
+      "modified": false,
+      "license_basis": "Repository dual-license grant and website footer; no separate license notice found in the selected source rule, PNG metadata, or visible illustration."
+    }
+  ],
+  "licenses": [
+    {
+      "path": "LICENSE",
+      "source": "LICENSE",
+      "sha256": "a5fd213a9e9ad6e45a8427d0107cb90793731851aca8220c34453e8e3c458169",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/LICENSE"
+    },
+    {
+      "path": "LICENSE.CCBY",
+      "source": "LICENSE.CCBY",
+      "sha256": "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76",
+      "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/LICENSE.CCBY"
+    }
+  ],
+  "documents": [
+    {
+      "path": "graphics.md",
+      "sha256": "737ab2455e0fefaea4583d9e89e81ac96a18be209d7f626f3b901a3e6a180578"
+    },
+    {
+      "path": "pins.md",
+      "sha256": "9106e93d7a30a856a46dab65a6aa776559bf6f7606e3287f5b644c4565b6c782"
+    },
+    {
+      "path": "library-fields.md",
+      "sha256": "45d94725cafe4028e138200fe102ad58c8245012ce99d2c08b5f6ffc430c199b"
+    }
+  ],
+  "image_license_evidence": {
+    "source": "layouts/partials/footer.html",
+    "source_url": "https://gitlab.com/kicad/libraries/klc/-/blob/6e8cbad9556359879d2b91f904d6df82517d97d1/layouts/partials/footer.html",
+    "source_sha256": "b4c3b917a41c9bdc2c769e03b5ee895cac04508e98744c317ac18781ec3a2878",
+    "scope": "Website footer explicitly covers text and images unless otherwise stated."
+  }
+}

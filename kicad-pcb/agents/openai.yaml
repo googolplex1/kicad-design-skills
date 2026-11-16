@@ -1,0 +1,4 @@
+interface:
+  display_name: "KiCad PCB Design"
+  short_description: "Place, route and refine practical KiCad boards"
+  default_prompt: "Use $kicad-pcb to create or refine a PCB layout using the existing project brief, purposeful routing, and concrete manufacturing checks."
